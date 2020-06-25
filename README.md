@@ -2,7 +2,7 @@
 A simple tool to translate text to speech using Google TTS API
 
 
-### Installation (Recommand to turn off your VPN):
+### Installation:
 1. Please run under python 3.6+ (https://www.python.org/downloads/)
 
 2. Remember to remove old google-cloud core if you have used any before
@@ -12,6 +12,16 @@ A simple tool to translate text to speech using Google TTS API
 pip install --upgrade google-cloud-texttospeech
 ```
 
+
+### Prepare your own credentials:
+
+1. The given credential.json is not valid (My wallet insist not to bill for your guys not my choice)
+
+2. Therefore you will need to go to https://console.developers.google.com to prepare your own credential
+
+3. Create an API project -> Go to Library -> Search for 'Text To Speech' -> Choose 'Cloud Text-to-Speech API' -> Enable -> Create Credentials
+
+4. Rename your downloaded credential json file to ```credential.json``` and put under the root folder
 
 
 ### How to use:
