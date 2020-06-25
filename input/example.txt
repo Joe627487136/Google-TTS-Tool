@@ -1,0 +1,4 @@
+<speak>
+<emphasis level="strong">Welcome to testing</emphasis>
+<break time="2s"/>Now let's bruh bruh bruh bruh bruh bruh
+</speak>
