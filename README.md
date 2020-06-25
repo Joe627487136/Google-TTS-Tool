@@ -26,18 +26,23 @@ pip install --upgrade google-cloud-texttospeech
 
 ### How to use:
 
-1. Input folder to put in all your ssml text file
+1. Input folder for storing all your ssml text file (Better name with 'your_name_ssml.txt' for batch operation)
 
-2. Output folder to store all ssml voice file
+2. Output folder for storing all generated ssml MP3 voice file
 
 3. Testing output(will genernate a testing.mp3): 
 ```
 python gtts.py
 ```
 
-4. Custom tts (will generate your_ssml_text.mp3): 
+4. Custom single file tts (will generate your_ssml_text.mp3): 
 ```
 python gtts.py ./input/your_ssml_text.txt
+```
+
+4. Batch file tts (any file contains 'ssml' in its filename will be translated to MP3): 
+```
+python gtts.py -all
 ```
 
 
